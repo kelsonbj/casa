@@ -5,46 +5,53 @@
 }
 
 /*cabeçalho*/
-header {
+header 
+{
     background-color: rgba(0, 57, 59, 0.733);
     padding: 20px;
     border-radius: 0 0 20px 20px;
 }
-#menu {
+#menu 
+{
     width: 100%;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#menu a {
+#menu a 
+{
     text-decoration: none;
     color: rgba(0, 247, 255, 0.836);
     font-size: 15px;
     margin-right: 20px;
 }
 
-#menu a:hover {
+#menu a:hover 
+{
     color: white;
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
 
-#menu ul {
+#menu ul 
+{
     list-style: none;
     display: flex;
 }
 
 /*corpo conteudo*/
 
-body {
+body
+{
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: rgba(11, 226, 179, 0.541);
     color: #000;
 }
 
-#conteudo {
+#conteudo
+{
     background-color: rgba(0, 57, 59, 0.733);
     display: flex;
     justify-content: space-between;
@@ -56,64 +63,87 @@ body {
     margin-left: 5.5%;
 }
 
-#conteudo .texto {
+#conteudo .texto
+{
     flex: 1;
     margin-right: 20px;
 }
 
-.texto h2 {
+.texto h2 
+{
     font-size: 28px;
     text-align: center;
 }
 
-.texto p {
+.texto p 
+{
     text-align: justify;
 }
 
-#conteudo img {
+#conteudo img 
+{
     height: 100%;
     width: 100%;
-    
 }
 
- .img {
+ .img
+{
     text-align: center;
     width: 60%;
     height: 50%;
 }
 
-#conteudo img:hover {
+#conteudo img:hover
+{
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
 
-#loja {
+#loja
+{
     background-color: rgba(0, 57, 59, 0.733);
-    padding: 20px;
-    margin: 10px;
+    margin: 10px 30px;
     border-radius: 20px;
-    width: 80%;
-    margin-left: 5.5%;
+    max-width: 100%;
+    min-height: 600px;
 }
 
-#destaque {
+#destaque
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
 
-#destaque img {
-    width: 30%;
+#destaque-img
+{
+    width: 60%;
     height: auto;
     border-radius: 10px;
+    background-color: rgb(0, 184, 184);
+    display: flex;
+    margin: 20px 40px 0 10px;
 }
-/*carossel*/
 
+.carossel-img
+{
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(4, 247, 247);
+    display: flex;
+    margin: 20px 40px 0 10px;
 
+}
+
+.carossel-img img
+{
+    width: 100%;
+}
 
 /*rodapé*/
-footer {
+footer 
+{
     background-color: rgba(0, 57, 59, 0.733);
     padding: 20px;
     text-align: center;
